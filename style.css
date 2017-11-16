@@ -1,0 +1,96 @@
+body{
+    box-sizing: border-box;
+    background-color: #ff5733;
+}
+h2{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 2.4em;
+}
+.clearfix {
+  display: inline-block;
+  width: 100%;
+}
+.container{
+    background-color: white;
+    border-radius: 12px;
+    width:700px;
+    min-height: 150px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    padding:8px;
+}
+
+.quote-container{
+    text-align: center;
+    font-size:2.8em;
+    font-style:italic;
+    color: #ff5733;
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.quote-by{
+    text-align: right;
+    margin-right: 42px;
+    color: #ff5733;
+    font-size: 1.6em;
+    font-style: italic;
+}
+.maker{
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    color:white;
+}
+.next{
+    font-size: 1.4em;
+    font-style: italic;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    float: right;
+}
+.tweet{
+    font-size: 1.4em;
+    font-style: italic;
+    background-color: #00aced;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    float: left;
+}
+
+
+@media (max-width: 767px) {
+    h2{
+        font-size: 1.4em;
+    }
+    div{
+        width: 90%;
+        margin: 7px auto;
+        font-size: 1.2em;
+    }
+    .container{
+        width: 90%;
+        margin:8px;
+        padding: 4px;
+        text-align: center;
+
+    }
+    .quote-container{
+        font-size: 1.7em;
+    }
+    button{
+        width: 70%;
+        display: block;
+        margin:0 auto;
+        float: unset !important;
+    }
+}
